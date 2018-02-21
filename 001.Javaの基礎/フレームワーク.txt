@@ -1,0 +1,67 @@
+1．Apache Struts
+
+特徴  
+
+・生産性が高いことで有名・JSP カスタムタグによってJavaコードがJSPの様にHTMLタグの中に
+＜％と％＞で囲まれたスクリプトレットであるJavaのコードを混在されることなく読みやすく
+コーディングが出来るようになる。
+
+導入方法
+
+・Strutsはフレームワークのため、ソフトウェアのインストールというのとは異なり、
+Strutsと独自開発のプログラムをTomcatなどサーブレットコンテナに配置（デプロイ）
+することにより利用が出来るようになる。
+
+実行環境
+・WindowsXP Home Edition
+・J2SDK 1.4.2_04
+・Tomcat 5.0.18
+・Struts 1.2.4
+
+
+
+
+2．Spring　Framework
+
+特
+
+・一つのフレームワークではなくフレームワークの集合体位の為とても大きい。
+・サーバー開発に強力
+・Javaのプログラマーなら誰でも聞いたことがあるくらい有名。
+
+
+
+開発環境
+Windows 10
+Java 8
+Spring Tool Suite (STS) 3.8.1
+
+
+
+導入方法
+・Spring Frameworkを利用した開発のための専用ツール「Spring Tool Suite（STS）」
+をEclipseをベースに専用のプラグインを組み合わせて作られているので、このSTSを初めに用意する。
+
+
+
+
+
+
+3.JavaEE
+
+特徴 
+Java標準仕様のフレームワークでServletやJSP、EJBやJavaの各種APIなど、企業システムの構築に必要な
+機能がまとめて提供されている。標準仕様なので堅いイメージがあるが、、最近では使いやすさや生産性の向上が見られている。
+
+
+
+開発環境
+・JDK 8u40
+・NetBeans 8.0.2
+・GlassFish 4.1
+・Java DB (JDKが内包)
+
+
+導入方法
+NetBeans 、GlassFish をインストールし、NetBeans に手動インストールした GlassFish を追加後プロジェクトの作成をする。
+
