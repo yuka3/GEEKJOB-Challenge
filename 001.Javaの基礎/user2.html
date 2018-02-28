@@ -13,12 +13,27 @@ and open the template in the editor.
     <body>
  <form action="./user3.jsp" method="post">
      
-      <input type="text" name="氏名">
-      <input type="radio" name="性別">
-      <textarea name="趣味t"></textarea>
-      
-      <input type="submit" name="btnSubmit">
+    <div> 
+     <label for="name">氏名:</label>
+     <input type="text" name="氏名">
+    </div>
+     
+     
+    <div>
+      <input type="radio" name="gender" value="male">男性
+      <input type="radio" name="gender" value="female">女性    
 
+    </div>  
+     
+     
+     <div>
+        <label for="msg">趣味:</label>
+      <textarea name="趣味"></textarea>
+     </div>
+
+      <input type="submit" name="btnSubmit">
+      
+      
     </form>      
          </body>
 </html>
